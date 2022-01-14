@@ -15,9 +15,10 @@ body {
   place-items: center;
 }
 main {
-  background: url(images/fundo.svg);
-  width: 375px;
-  height: 812px;
+  background: url(images/fundo.svg) no-repeat center/cover;
+  width: 100vw;
+  min-height: 812px;
+  height: 100vh;
 }
 .container {
   max-width: 250px;
